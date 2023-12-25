@@ -5,53 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievements</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="achivement.html">Achievements</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="dev-skills.html">Dev Skills</a></li>
+        <nav >
+            <ul class="nav nav-pills justify-content-end bg-dark">
+                <li class="nav-item"><a class="nav-link small" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link small" href="aboutme.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link active small" href="achivement.html">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link small" href="education.html">Education</a></li>
+                <li class="nav-item "><a class="nav-link small" href="dev-skills.html">Dev Skills</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h1>My Achievements</h1>
-            <ul>
+            <h1 class="mt-4">My Achievements</h1>
+            <ul class="mt-4">
                 <li>Physically Fit</li>
                 <li>Cooking</li>
                 <li>Scored Multiple Bangers in FIFA</li>
             </ul>
         </section>
 
-        <section>
-            <h2>The Goal I Scored with Ronaldo</h2>
-            <video controls src="image/Fifa.mp4" aria-label="My Video"></video>
-        </section>
-
-        <p>
-            In pursuit of my goal with Ronaldo, the exhilarating moment unfolded in a breathtaking spectacle of skill and
-            precision. Positioned strategically in the penalty area, Ronaldo's anticipation met its pinnacle when an
-            impeccable assist from Douglas Costa materialized. The orchestration of the play was nothing short of
-            perfection. As the ball sailed through the air, seemingly choreographed by an unseen force, Ronaldo soared
-            with an awe-inspiring leap. Time seemed to momentarily freeze as his connection with the ball manifested into
-            a masterful over-head kick. The sheer athleticism, coupled with the synchronized elegance of the play,
-            culminated in a goal that transcended the realm of mere sportsmanship. It became a symphony of artistry on
-            the football field, a testament to the harmonious collaboration between skillful teammates. This goal stands
-            not only as a remarkable achievement but as a living testament to the boundless potential of teamwork and
-            individual brilliance converging in the pursuit of excellence.
-        </p>
+            <h2 class="mt-4">The Goal I Scored with Ronaldo</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-5">
+                        <iframe class="container-fluid" src="image/Fifa.mp4" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            In pursuit of my goal with Ronaldo, the exhilarating moment unfolded in a breathtaking spectacle of
+                            skill and precision. Positioned strategically in the penalty area, Ronaldo's anticipation met its
+                            pinnacle when an impeccable assist from Douglas Costa materialized. The orchestration of the play
+                            was nothing short of perfection. As the ball sailed through the air, seemingly choreographed by an
+                            unseen force, Ronaldo soared with an awe-inspiring leap. Time seemed to momentarily freeze as his
+                            connection with the ball manifested into a masterful over-head kick. The sheer athleticism, coupled
+                            with the synchronized elegance of the play, culminated in a goal that transcended the realm of mere
+                            sportsmanship. It became a symphony of artistry on the football field, a testament to the harmonious
+                            collaboration between skillful teammates. This goal stands not only as a remarkable achievement but
+                            as a living testament to the boundless potential of teamwork and individual brilliance converging
+                            in the pursuit of excellence.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
         <section>
             <h2>Cooking</h2>
-            <img src="image/cooking.jpg" alt="Cooking Image">
+            <img src="image/cooking.jpg" class="img-fluid" alt="Cooking Image">
         </section>
 
         <p>
@@ -67,8 +74,7 @@
             creativity.
         </p>
     </main>
-
-    <footer>
+    <footer class="bg-dark text-secondary text-center">
         &copy; 2023 Biruk Amanuel. All Rights Reserved.
     </footer>
 
